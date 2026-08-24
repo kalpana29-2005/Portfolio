@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Kalpana Bannad — ECE student focused on VLSI front-end design and AI/ML." />
+  <title>Kalpana Bannad | VLSI & AI/ML</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home"><span class="brand-mark">KB</span><span class="brand-dot"></span></a>
+      <span class="nav-tag">ECE · VLSI · AI/ML</span>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#writing">Writing</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button class="theme-btn" id="themeToggle" aria-label="Toggle dark mode">☾</button>
+        <button class="menu-btn" id="menuToggle" aria-label="Open menu">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">PORTFOLIO · REV. 2027</p>
+        <h1>Hi, I'm <span>Kalpana Bannad.</span></h1>
+        <p class="hero-role">ECE Student | VLSI Front-End Design | AI/ML Enthusiast</p>
+        <p class="hero-text">I build digital hardware in Verilog and practical AI/software systems — with a growing focus on RTL design, verification, and thoughtful engineering.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="assets/Kalpana_Bannad_Resume.pdf" target="_blank">View Resume ↗</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/kalpana29-2005" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/kalpana-bannad" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="mailto:gouribannad@gmail.com">Email ↗</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap reveal">
+        <div class="photo-frame"><img src="assets/profile.jpg" alt="Portrait of Kalpana Bannad" /></div>
+        <div class="spec-panel">
+          <div class="spec-row"><span class="spec-label">Status</span><span class="spec-value"><span class="status-dot"></span>Open to internships &amp; placements</span></div>
+          <div class="spec-row"><span class="spec-label">Focus</span><span class="spec-value">RTL · Verification · AI/ML</span></div>
+          <div class="spec-row"><span class="spec-label">Base</span><span class="spec-value">Vijayapura, KA · IN</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-head reveal"><p class="eyebrow">SEC. 01 / 07 — ABOUT</p><h2>Engineering curiosity,<br/>across hardware and AI.</h2></div>
+      <div class="about-grid reveal">
+        <p>I'm an Electronics and Communication Engineering student specializing in VLSI design and AI/ML. My work spans RTL design and verification, computer vision, full-stack AI applications, and practical software tools.</p>
+        <p>I enjoy understanding how systems work from the logic level upward — whether that means designing a processor datapath, verifying an ALU, or turning an AI idea into a usable application. Outside engineering, I write, play chess, create art, and participate in hackathons.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-head reveal"><p class="eyebrow">SEC. 02 / 07 — SKILLS</p><h2>Technical toolkit.</h2></div>
+      <div class="skill-grid">
+        <article class="skill-card reveal"><span>01</span><h3>Programming</h3><p>Python · C · DSA</p></article>
+        <article class="skill-card reveal"><span>02</span><h3>VLSI / RTL</h3><p>Verilog · RTL Design · Testbench Verification · Digital Design</p></article>
+        <article class="skill-card reveal"><span>03</span><h3>Tools</h3><p>Cadence Virtuoso · Icarus Verilog · GTKWave · VS Code · GitHub</p></article>
+        <article class="skill-card reveal"><span>04</span><h3>Web Foundations</h3><p>HTML · CSS · JavaScript · Flask · REST APIs</p></article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-head reveal"><p class="eyebrow">SEC. 03 / 07 — SELECTED WORK</p><h2>Projects built to learn,<br/>test and solve.</h2></div>
+      <article class="featured-project reveal">
+        <div><div class="project-top"><span class="tag">FEATURED · VLSI</span><span class="project-no">01</span></div><h3>RISC-V Processor</h3><p>Single-cycle RISC-V processor designed in Verilog HDL, covering arithmetic, logic, memory and branch instruction classes with a Python-based assembler and Icarus Verilog testbench verification.</p><div class="chips"><span>Verilog</span><span>RTL</span><span>Icarus Verilog</span><span>Python</span></div><a class="text-link" href="https://github.com/kalpana29-2005/RISC-V-Processor" target="_blank" rel="noreferrer">Explore repository ↗</a></div>
+        <div class="chip-art" aria-hidden="true"><div class="chip-core">RISC-V<small>RTL</small></div></div>
+      </article>
+      <div class="project-grid">
+        <article class="project-card reveal"><span class="tag">VLSI</span><h3>Parameterized ALU</h3><p>Reusable Verilog ALU with configurable bit-width and multiple arithmetic, logical and shift operations.</p><div class="chips"><span>Verilog</span><span>Testbench</span></div><a href="https://github.com/kalpana29-2005/Parameterized-ALU-Verilog" target="_blank">GitHub ↗</a></article>
+        <article class="project-card reveal"><span class="tag">AI · FULL STACK</span><h3>Multi-Model Chat</h3><p>Multi-LLM chat application with dynamic model routing, authentication and persistent conversations.</p><div class="project-links"><a href="https://github.com/kalpana29-2005/Multi-model-chat" target="_blank">GitHub ↗</a><a href="https://multi-model-chat-2wr1.onrender.com/" target="_blank">Live ↗</a></div></article>
+        <article class="project-card reveal"><span class="tag">AI</span><h3>AI Resume Analyzer</h3><p>Resume parsing and ATS-oriented scoring tool that converts uploaded resumes into actionable improvement suggestions.</p><div class="project-links"><a href="https://github.com/kalpana29-2005/AI-Resume-Analyzer" target="_blank">GitHub ↗</a><a href="https://ai-resume-analyzer-k5behpsnluz43gkagyfkrh.streamlit.app/" target="_blank">Live ↗</a></div></article>
+        <article class="project-card reveal"><span class="tag">WEB</span><h3>Weather Forecasting</h3><p>Responsive weather dashboard for current conditions and forecast visualization.</p><div class="project-links"><a href="https://github.com/kalpana29-2005/Weather-Forecasting" target="_blank">GitHub ↗</a><a href="https://weather-forecasting-7l58.onrender.com/" target="_blank">Live ↗</a></div></article>
+        <article class="project-card reveal"><span class="tag">WEB</span><h3>URL Shortener</h3><p>Compact web application for generating and managing shortened URLs.</p><div class="project-links"><a href="https://github.com/kalpana29-2005/URL-Shortner" target="_blank">GitHub ↗</a><a href="https://url-shortner-1-rz9k.onrender.com/" target="_blank">Live ↗</a></div></article>
+        <article class="project-card ongoing reveal"><div class="ongoing-row"><span class="tag">AI · COMPUTER VISION</span><span class="live-badge">ONGOING</span></div><h3>PomeGuard</h3><p>Pomegranate disease detection platform focused on image-based diagnosis, farmer-friendly multilingual access, and practical disease insights.</p><div class="chips"><span>Computer Vision</span><span>AI/ML</span><span>Full Stack</span></div></article>
+      </div>
+    </section>
+
+    <section class="section container" id="writing">
+      <div class="section-head reveal"><p class="eyebrow">SEC. 04 / 07 — WRITING</p><h2>Ideas beyond code.</h2></div>
+      <div class="article-list">
+        <a class="article-card reveal" href="https://substack.com/@gouribannad/note/p-212558586?r=6r3hbt" target="_blank" rel="noreferrer"><div><span class="tag">SUBSTACK · REFLECTION</span><h3>Small Acts of Kindness That Matter</h3><p>A few simple reminders about kindness, empathy, and the way we treat people every day.</p></div><span class="arrow">↗</span></a>
+        <a class="article-card reveal" href="https://medium.com/@gouribannad/being-me-is-the-biggest-flex-aa0565e3b040" target="_blank" rel="noreferrer"><div><span class="tag">MEDIUM · PERSONAL ESSAY</span><h3>Being Me Is the Biggest Flex</h3><p>A reflection on authenticity, individuality and the confidence to be yourself.</p></div><span class="arrow">↗</span></a>
+      </div>
+      <p class="more-note reveal">More writing coming soon.</p>
+    </section>
+
+    <section class="section container" id="achievements">
+      <div class="section-head reveal"><p class="eyebrow">SEC. 05 / 07 — ACHIEVEMENTS</p><h2>Beyond the classroom.</h2></div>
+      <div class="achievement-grid">
+        <article class="achievement-card reveal"><img src="assets/certificates/chess-runner-up.jpg" alt="Chess runner-up certificate" loading="lazy"><div><span class="tag">CHESS · 2024–25</span><h3>Inter-Branch Chess — Runner-up</h3><p>Runner-up in the women's inter-branch chess tournament at college.</p></div></article>
+        <article class="achievement-card reveal"><img src="assets/certificates/hackvyuha.jpg" alt="HackVyuha certificate" loading="lazy"><div><span class="tag">HACKATHON · 2025</span><h3>HackVyuha</h3><p>Participated in a national-level hackathon centered on innovation, problem-solving and collaboration.</p></div></article>
+        <article class="achievement-card reveal"><img src="assets/certificates/innorise.jpg" alt="INNORISE 2K25 certificate" loading="lazy"><div><span class="tag">HACKATHON · 2025</span><h3>INNORISE 2K25</h3><p>Participated in the INNORISE 2K25 hackathon.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section container" id="certifications">
+      <div class="section-head reveal"><p class="eyebrow">SEC. 06 / 07 — CERTIFICATIONS</p><h2>Continuous learning.</h2></div>
+      <div class="cert-grid">
+        <a class="cert-card reveal" href="assets/certificates/verilog-udemy.jpg" target="_blank"><div class="cert-img-wrap"><img src="assets/certificates/verilog-udemy.jpg" alt="Udemy Verilog HDL certificate" loading="lazy"></div><div><strong>Verilog HDL: VLSI Hardware Design</strong><small>Udemy · 2026</small></div></a>
+        <a class="cert-card reveal" href="assets/certificates/simplilearn-vlsi.jpg" target="_blank"><div class="cert-img-wrap"><img src="assets/certificates/simplilearn-vlsi.jpg" alt="Simplilearn VLSI certificate" loading="lazy"></div><div><strong>VLSI Course</strong><small>Simplilearn SkillUp · 2025</small></div></a>
+        <a class="cert-card reveal" href="assets/certificates/tata-genai.jpg" target="_blank"><div class="cert-img-wrap"><img src="assets/certificates/tata-genai.jpg" alt="Tata GenAI certificate" loading="lazy"></div><div><strong>GenAI Powered Data Analytics</strong><small>Tata × Forage · 2026</small></div></a>
+        <a class="cert-card reveal" href="assets/certificates/siemens-forage.jpg" target="_blank"><div class="cert-img-wrap"><img src="assets/certificates/siemens-forage.jpg" alt="Siemens Forage certificate" loading="lazy"></div><div><strong>Project Manager Job Simulation</strong><small>Siemens × Forage · 2026</small></div></a>
+        <a class="cert-card reveal" href="assets/certificates/hackerrank-python.jpg" target="_blank"><div class="cert-img-wrap"><img src="assets/certificates/hackerrank-python.jpg" alt="HackerRank Python Basic certificate" loading="lazy"></div><div><strong>Python (Basic)</strong><small>HackerRank · 2026</small></div></a>
+        <a class="cert-card reveal" href="assets/certificates/gfg-python.jpg" target="_blank"><div class="cert-img-wrap"><img src="assets/certificates/gfg-python.jpg" alt="GeeksforGeeks Python certificate" loading="lazy"></div><div><strong>Python Course</strong><small>GeeksforGeeks</small></div></a>
+        <a class="cert-card reveal" href="assets/certificates/hp-critical-thinking.jpg" target="_blank"><div class="cert-img-wrap"><img src="assets/certificates/hp-critical-thinking.jpg" alt="HP Critical Thinking certificate" loading="lazy"></div><div><strong>Critical Thinking in the AI Era</strong><small>HP LIFE · 2026</small></div></a>
+      </div>
+    </section>
+
+    <section class="section container beyond">
+      <div class="section-head reveal"><p class="eyebrow">SEC. 07 / 07 — BEYOND ENGINEERING</p><h2>Chess. Writing. Art.</h2></div>
+      <p class="beyond-copy reveal">Technical depth matters to me, but so does perspective. Chess sharpens how I think ahead, writing helps me articulate ideas, and art keeps creativity in the loop.</p>
+    </section>
+
+    <section class="contact section" id="contact"><div class="container contact-inner reveal"><p class="eyebrow">LET'S CONNECT</p><h2>Building at the intersection<br/>of hardware and intelligence.</h2><p>I'm interested in opportunities and conversations around VLSI front-end design, RTL, embedded systems and AI/ML.</p><div class="cta-row"><a class="btn primary" href="mailto:gouribannad@gmail.com">gouribannad@gmail.com</a><a class="btn secondary" href="https://www.linkedin.com/in/kalpana-bannad" target="_blank">LinkedIn ↗</a></div></div></section>
+  </main>
+
+  <footer class="container footer"><span>© <span id="year"></span> Kalpana Bannad</span><span>Designed for clarity. Built with curiosity.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
